@@ -1,0 +1,31 @@
+{
+  "name": "oit/codeup-yihai-ckeditor",
+  "description": "codeup-yihai ckeditor widget",
+  "keywords": [
+    "codeup",
+    "yihai",
+    "orangeit",
+    "oit",
+    "yii2",
+    "framework",
+    "ckeditor"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "upik",
+      "email": "upxsal@gmail.com"
+    }
+  ],
+  "require": {
+    "oit/codeup-yihai": "*",
+    "ckeditor/ckeditor": "^4.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "codeup\\ckeditor\\": "src"
+    }
+  },
+  "minimum-stability": "stable"
+}
